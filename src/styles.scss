@@ -1,0 +1,21 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  overflow: hidden;
+}

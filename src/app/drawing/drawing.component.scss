@@ -1,0 +1,11 @@
+:host {
+  width: 100%;
+}
+
+.galaxy {
+  background-image: url(../../assets/images/mars.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: calc(100vh - 100px);
+}

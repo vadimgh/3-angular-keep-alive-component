@@ -1,0 +1,30 @@
+:host {
+  align-self: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.help-container {
+  padding: 10px;
+  overflow-y: scroll;
+  height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  .help-header {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.help-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  mat-card-title {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,13 @@
+<div class="grid-container">
+  <div class="header-container">
+    <div class="header-menu">
+      <button mat-button routerLink="/">Draw</button>
+      <button mat-button routerLink="help">Help</button>
+    </div>
+  </div>
+  <div class="main-area-container" [@routeAnimations]="prepareRoute(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </div>
+  <div class="footer-container">
+  </div>
+</div>
